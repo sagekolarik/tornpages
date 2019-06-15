@@ -1,6 +1,7 @@
 //just using this comment to test
 //here's another
 // Hey! its a me Ben!
+//Hey its Ben again!
 //MACROS
 
 #macro ACTIVATE 0
