@@ -1,0 +1,1 @@
+event_perform_object(obj_npc, ev_destroy, 0)

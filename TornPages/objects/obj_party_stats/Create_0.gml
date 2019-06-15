@@ -1,0 +1,2 @@
+script_execute(scr_party_stat_init)
+script_execute(scr_party_actions_init)

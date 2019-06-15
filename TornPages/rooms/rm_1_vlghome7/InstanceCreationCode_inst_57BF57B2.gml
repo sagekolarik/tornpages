@@ -1,0 +1,1 @@
+text[0]="'Chronic Narcissism and you - by Lee Leo Leona'"

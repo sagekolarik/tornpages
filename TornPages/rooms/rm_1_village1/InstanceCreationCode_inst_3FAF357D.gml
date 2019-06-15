@@ -1,0 +1,2 @@
+next_room=rm_1_vlghome3
+door_number=1

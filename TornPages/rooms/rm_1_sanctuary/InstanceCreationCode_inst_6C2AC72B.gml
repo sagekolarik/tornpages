@@ -1,0 +1,1 @@
+cutscene=ctscn_wrld1_confront_gumper

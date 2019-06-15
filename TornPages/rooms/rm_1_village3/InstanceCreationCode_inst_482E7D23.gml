@@ -1,0 +1,49 @@
+/*/////////////////////////////////////////////////////////////////
+		VARIABLES
+/*/////////////////////////////////////////////////////////////////
+if check_plotvar(plotvar.wrld1_rescued_tuppy)=false {
+	instance_destroy(); exit
+}
+
+name_banner="ASAFD"
+
+text[0]="..."
+
+/*/////////////////////////////////////////////////////////////////
+
+		SPRITES
+
+/*/////////////////////////////////////////////////////////////////
+
+//set the sprites here
+sprite[RIGHT]=spr_asaf_idle_right
+sprite[UP]=spr_asaf_idle_up
+sprite[LEFT]=spr_asaf_idle_left
+sprite[DOWN]=spr_asaf_idle_down
+sprite[WALKING_RIGHT]=spr_asaf_walking_right
+sprite[WALKING_LEFT]=spr_asaf_walking_left
+sprite[WALKING_UP]=spr_asaf_walking_up
+sprite[WALKING_DOWN]=spr_asaf_walking_down
+
+//set direction NPC is facing
+facing=DOWN
+sprite_index=sprite[facing]
+
+/*/////////////////////////////////////////////////////////////////
+
+		INSTRUCTIONS
+
+/*/////////////////////////////////////////////////////////////////
+face_when_talking=false
+return_to_ogsprite=true
+
+/*/////////////////////////////////////////////////////////////////
+
+		IDLE BEHAVIOR
+
+/*/////////////////////////////////////////////////////////////////
+
+var i=0
+
+npc_idle_behavior[| i]=WAIT
+npc_idle_behavior_sprite[| i]=spr_asaf_dead

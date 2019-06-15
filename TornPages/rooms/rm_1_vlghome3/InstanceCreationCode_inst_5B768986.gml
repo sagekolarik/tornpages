@@ -1,0 +1,2 @@
+next_room=rm_1_village1
+door_number=1

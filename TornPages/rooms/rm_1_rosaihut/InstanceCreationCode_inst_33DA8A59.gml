@@ -1,0 +1,1 @@
+variable=plotvar.wrld1_collected_fruit

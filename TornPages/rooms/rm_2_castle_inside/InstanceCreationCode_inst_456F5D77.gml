@@ -1,0 +1,2 @@
+next_room=rm_2_castle_gate
+door_number=2

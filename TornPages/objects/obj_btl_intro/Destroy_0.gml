@@ -1,0 +1,2 @@
+ds_list_destroy(ALLY_display_pos_x)
+ds_list_destroy(ENEMY_display_pos_x)

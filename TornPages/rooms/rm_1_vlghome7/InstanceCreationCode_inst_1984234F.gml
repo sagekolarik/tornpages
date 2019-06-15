@@ -1,0 +1,1 @@
+text[0]="'Art and culture' - by Gilbert Ackerman"

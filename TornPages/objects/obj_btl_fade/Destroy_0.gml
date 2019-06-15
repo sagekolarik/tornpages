@@ -1,0 +1,1 @@
+obj_btl_ctrl.last_room=last_room

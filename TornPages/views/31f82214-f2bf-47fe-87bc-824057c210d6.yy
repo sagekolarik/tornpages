@@ -1,0 +1,33 @@
+{
+    "id": "31f82214-f2bf-47fe-87bc-824057c210d6",
+    "modelName": "GMFolder",
+    "mvc": "1.1",
+    "name": "31f82214-f2bf-47fe-87bc-824057c210d6",
+    "children": [
+        "60b82969-bc3a-4eeb-9d5d-a9d8c1d977e9",
+        "c7bf1e5c-348c-4e62-b1c5-3ddd33eae9e5",
+        "5d84929f-77af-4a2e-94b3-510e306df084",
+        "478390be-c5ac-4971-8fca-37e6d761697b",
+        "73f6b8ec-f99a-4a5f-8240-dd51e1f85b0b",
+        "13b0eb7c-4a3a-42fd-9c2e-770f9b1415d8",
+        "066d01e3-d4e7-430b-a8fe-369ca557e142",
+        "ea354f7f-de3d-49c7-8457-a0d72493fa40",
+        "36e54e4b-dccb-4756-8f2b-387d465d31fa",
+        "3690613e-0c78-4cc7-9e4b-659fad3669be",
+        "eaf01a97-f2cb-45ac-9876-bbf7e9b9a71a",
+        "a4798413-21ae-4368-b889-ad15b00c52d5",
+        "c8b5e217-329a-410c-a4a9-ad3863fa04b7",
+        "4f91e5da-ede1-48a7-97d7-5303af07cf6c",
+        "a502020b-4094-40db-9c04-a38ffbc3b229",
+        "106b480a-7c87-48c9-9501-0d29bcfc71da",
+        "afcbd9c3-c492-4c58-b7d8-ebbc54289442",
+        "7b73be4a-a9c9-4eaf-9f42-9f7779ddab75",
+        "ab45cc8b-c729-4b7f-8ec9-d475418381ff",
+        "071ad004-aa03-44a3-a6d0-8e1543a70c59",
+        "a07877e4-963a-456c-9c6a-e6c5f4470b7f"
+    ],
+    "filterType": "GMSprite",
+    "folderName": "kai",
+    "isDefaultView": false,
+    "localisedFolderName": ""
+}

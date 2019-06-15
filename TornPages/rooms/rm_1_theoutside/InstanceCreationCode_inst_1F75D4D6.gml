@@ -1,0 +1,1 @@
+last_room=rm_1_village4_festival

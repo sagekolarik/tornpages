@@ -1,0 +1,2 @@
+set_plotvar(plotvar.wrld1_met_tuppys_mom,true)
+set_plotvar(plotvar.wrld1_completed_tutorial_battle,true)

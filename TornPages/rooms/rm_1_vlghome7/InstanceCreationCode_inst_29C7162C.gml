@@ -1,0 +1,1 @@
+text[0]="'Lightning Magic: Achieve mystical mastery in a flash' - By Snow Peabody"

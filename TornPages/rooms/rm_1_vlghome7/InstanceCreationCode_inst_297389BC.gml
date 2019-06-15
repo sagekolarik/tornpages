@@ -1,0 +1,1 @@
+text[0]="'My imaginary friend is better than yours' - by Libby Stein"

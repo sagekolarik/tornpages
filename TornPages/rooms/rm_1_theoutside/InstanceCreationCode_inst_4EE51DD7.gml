@@ -1,0 +1,1 @@
+cutscene=ctscn_wrld1_tuppy_pt2

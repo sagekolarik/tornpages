@@ -1,0 +1,2 @@
+juncture++
+moment=0

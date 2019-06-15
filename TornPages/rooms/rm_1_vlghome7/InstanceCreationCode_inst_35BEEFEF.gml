@@ -1,0 +1,1 @@
+text[0]="'Archona Convelescence' - By Josh Leake"

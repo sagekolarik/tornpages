@@ -1,0 +1,1 @@
+text[0]="'Help is for chumps: a personal anecdote about seeking the help you need' - By H.C. Chumps"

@@ -1,0 +1,1 @@
+song=bgm_trail_of_the_great_temple

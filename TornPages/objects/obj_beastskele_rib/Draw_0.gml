@@ -1,0 +1,1 @@
+draw_sprite_ext(spr_beastskele_body1_test,number,obj_beastskele_body1.x,obj_beastskele_body1.y,obj_beastskele_body1.image_xscale,obj_beastskele_body1.image_yscale,0,c_white,obj_beastskele_body1.image_alpha)

@@ -1,0 +1,102 @@
+if enabled=false {exit}
+
+//////////////////////////////////////////////////////////////////////////////
+/*
+	
+		CHANGE INDEX
+	
+*/
+///////////////////////////////////////////////////////////////////////////////
+
+
+//up or down/left or right
+if !obj_input.scroll_paused
+{
+	if !obj_input.down_button and !obj_input.up_button {
+		var index_move= obj_input.right_button-obj_input.left_button
+	}
+	else {
+		var index_move= obj_input.down_button-obj_input.up_button
+	}
+	
+	index+=index_move
+	
+	if index_move!=0
+		{
+			scr_play_sfx(sfx_ui_back)
+			
+		}
+	
+}
+
+//make sure it's not out of bounds
+if index<0
+	{
+		index=(array_length_1d(text)-1)
+	}
+else
+	{
+		if index>(array_length_1d(text)-1)
+			{index=0}
+	}
+
+//////////////////////////////////////////////////////////////////////////////
+/*
+	
+		CURRENT INDEX SELECTION
+	
+*/
+///////////////////////////////////////////////////////////////////////////////
+
+if obj_input.action_pressed
+{
+	enabled=false
+	//activate the script from the map
+	var script = asset_get_index(script_map[? text[index]])
+	script_execute(script)
+	
+	//sfx
+	scr_play_sfx(sfx_ui_forward)
+}
+
+//////////////////////////////////////////////////////////////////////////////
+/*
+	
+		BACK KEY
+	
+*/
+///////////////////////////////////////////////////////////////////////////////
+
+if obj_input.back_pressed
+{
+	//sfx
+	scr_play_sfx(sfx_ui_back)
+	
+	instance_destroy()
+}
+
+//////////////////////////////////////////////////////////////////////////////
+/*
+	
+		SET TARGET
+	
+*/
+///////////////////////////////////////////////////////////////////////////////
+
+target = text[index]
+
+//////////////////////////////////////////////////////////////////////////////
+/*
+	
+		SEND CURSOR
+	
+*/
+///////////////////////////////////////////////////////////////////////////////
+
+if instance_exists(CURSOR) {
+	CURSOR.target=target
+	//change speed
+	var dis=point_distance(CURSOR.x,CURSOR.y,target.x,target.y)
+	CURSOR.follow_speed=dis/4
+	if CURSOR.follow_speed<16 {CURSOR.follow_speed=16}
+}

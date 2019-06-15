@@ -1,0 +1,1 @@
+variable=plotvar.wrld1_found_village

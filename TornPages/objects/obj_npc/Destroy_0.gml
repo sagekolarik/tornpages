@@ -1,0 +1,3 @@
+ds_list_destroy(dialogue_options)
+ds_list_destroy(npc_idle_behavior)
+ds_list_destroy(npc_idle_behavior_sprite)

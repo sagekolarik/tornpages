@@ -1,0 +1,1 @@
+text="TRAIL OF THE GREAT BEAST"

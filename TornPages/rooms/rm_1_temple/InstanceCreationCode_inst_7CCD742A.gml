@@ -1,0 +1,1 @@
+song=bgm_jg_nature

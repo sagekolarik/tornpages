@@ -1,0 +1,2 @@
+last_room=rm_1_vlghome3
+door_number=2

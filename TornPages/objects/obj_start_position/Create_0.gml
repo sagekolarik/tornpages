@@ -1,0 +1,2 @@
+last_room=noone
+door_number=1
